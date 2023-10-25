@@ -342,15 +342,21 @@ h2 {
   gap: 21.3px;
 }
 .portfolio--section--container {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   gap: 42.6px;
-  width: 100%;
+  width: 100%; */
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42.6px;
+  grid-template-columns: repeat(3, 1fr);
 }
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
+  
 }
 .portfolio--section--img > img {
   width: 100%;
