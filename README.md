@@ -1,2 +1,1 @@
-# my-profile
-my portfolio
+# ethan-portfolio-starter
